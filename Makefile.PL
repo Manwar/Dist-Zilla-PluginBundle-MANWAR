@@ -33,6 +33,9 @@ WriteMakefile(
     clean => { FILES => 'Dist-Zilla-PluginBundle-MANWAR-*' },
     (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (META_MERGE => {
         'meta-spec' => { version => 2 },
+        provides    => {
+            'Dist::Zilla::PluginBundle::MANWAR' => { file => 'lib/Dist/Zilla/PluginBundle/MANWAR.pm', version => '0.02' },
+        },
         resources => {
             repository => {
                 type => 'git',

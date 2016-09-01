@@ -1,4 +1,7 @@
 Revision history for Dist::Zilla::PluginBundle::MANWAR
 
+0.02  Thu Sep 01 11:20:00 2016
+      - Added 'provides' to the Makefile.PL script.
+
 0.01  Wed Jul 27 10:10:00 2016
       - First version, released.
