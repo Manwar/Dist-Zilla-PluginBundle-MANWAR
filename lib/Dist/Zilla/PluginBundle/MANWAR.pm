@@ -1,6 +1,6 @@
 package Dist::Zilla::PluginBundle::MANWAR;
 
-$Dist::Zilla::PluginBundle::MANWAR::VERSION = '0.03';
+$Dist::Zilla::PluginBundle::MANWAR::VERSION = '0.04';
 
 use Moose;
 with 'Dist::Zilla::Role::PluginBundle::Easy';
@@ -13,7 +13,7 @@ sub configure {
     $self->add_plugins(qw(
         PkgVersion
         PodVersion
-        MinimumPerl
+        MinimumPerlFast
         GatherDir
         AutoPrereqs
         MetaJSON
@@ -59,7 +59,7 @@ Dist::Zilla::PluginBundle::MANWAR - Dist::Zilla plugins for manwar.
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 DESCRIPTION
 
@@ -67,7 +67,7 @@ This is the plugin bundle that MANWAR uses.  It's equivalent to:
 
     [PkgVersion]
     [PodVersion]
-    [MinimumPerl]
+    [MinimumPerlFast]
     [GatherDir]
     [MetaYAML]
     [MetaJSON]

@@ -1,5 +1,8 @@
 Revision history for Dist::Zilla::PluginBundle::MANWAR
 
+0.04  Wed Dec 21 13:20:00 2016
+      - Used dzil plugin [MinimumPerlFast] instead of [MinimumPerl].
+
 0.03  Wed Sep 21 12:50:00 2016
       - Added unit test scripts (t/meta-json.t and t/meta-yml.t).
       - Updated pod document with regards to dzil plugin [MetaProvides::Package].
