@@ -27,6 +27,7 @@ WriteMakefile(
         'Dist::Zilla::Plugin::MetaJSON'              => 0,
         'Dist::Zilla::Plugin::MakeMaker'             => 0,
         'Dist::Zilla::Plugin::Manifest'              => 0,
+        'Dist::Zilla::Plugin::GithubMeta'            => 0,
         'Dist::Zilla::Plugin::MetaProvides::Package' => 0,
         'Dist::Zilla::Role::PluginBundle::Easy'      => 0,
     },
@@ -35,7 +36,7 @@ WriteMakefile(
     (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (META_MERGE => {
         'meta-spec' => { version => 2 },
         provides    => {
-            'Dist::Zilla::PluginBundle::MANWAR' => { file => 'lib/Dist/Zilla/PluginBundle/MANWAR.pm', version => '0.05' },
+            'Dist::Zilla::PluginBundle::MANWAR' => { file => 'lib/Dist/Zilla/PluginBundle/MANWAR.pm', version => '0.06' },
         },
         resources => {
             repository => {

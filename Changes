@@ -1,5 +1,8 @@
 Revision history for Dist::Zilla::PluginBundle::MANWAR
 
+0.06  Tue Dec 27 01:25:00 2016
+      - Added dzil plugin [GithubMeta].
+
 0.05  Mon Dec 26 11:10:00 2016
       - Added prereq Dist::Zilla::Plugin::MinimumPerlFast to Makefile.PL script.
 
