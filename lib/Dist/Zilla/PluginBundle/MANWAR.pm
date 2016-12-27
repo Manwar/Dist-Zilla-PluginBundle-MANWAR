@@ -1,6 +1,6 @@
 package Dist::Zilla::PluginBundle::MANWAR;
 
-$Dist::Zilla::PluginBundle::MANWAR::VERSION = '0.06';
+$Dist::Zilla::PluginBundle::MANWAR::VERSION = '0.07';
 
 use Moose;
 with 'Dist::Zilla::Role::PluginBundle::Easy';
@@ -60,7 +60,7 @@ Dist::Zilla::PluginBundle::MANWAR - Dist::Zilla plugins for manwar.
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 DESCRIPTION
 
